@@ -1,0 +1,8 @@
+<h1> <%= @restaurant.name %> </h1>
+
+<p> <%= @restaurant.category %> </p>
+
+<p> <%= @restaurant.address %> </p>
+
+<p> <%= link_to "Give a review", new_restaurant_review_path(@restaurant) %> </p>
+<p> <%= link_to "Go to all restaurants", restaurants_path %> </p>
